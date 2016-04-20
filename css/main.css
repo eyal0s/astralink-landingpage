@@ -7,6 +7,10 @@
     height: 100%;
     overflow: hidden
 }*/
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 video#bgvid {
     position: fixed;
     top: 50%;
