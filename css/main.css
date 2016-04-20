@@ -1,0 +1,65 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}*/
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(assets/bg-gradient.png) no-repeat;
+    background-size: cover;
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);
+    filter: blur(2px);
+}
+.coming-soon {
+    text-align: center;
+    color: white;
+    font-family: Montserrat;
+    height: 100%;
+    width: auto;
+}
+a {
+    color: white;
+    text-decoration: underline;
+}
+a:hover {
+    color: white;
+}
+.header {
+    margin-top: 30px;
+}
+.footer {
+    /*position: fixed;
+  bottom: 25px;*/
+    /*position: absolute;*/
+    /*bottom: 25px;*/
+    /*left: 50%;*/
+    /*margin-left: -50%;*/
+    width: 50%;
+    margin: 20px auto 0px auto;
+
+    display: inline-block;
+
+}
+
+h1 {
+    font-size: 55px !important;
+    letter-spacing: 0.5px !important;
+}
