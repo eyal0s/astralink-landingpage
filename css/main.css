@@ -26,10 +26,10 @@ video#bgvid {
     transform: translateX(-50%) translateY(-50%);
     background: url(assets/bg.png) no-repeat;
     background-size: cover;
-    -webkit-filter: blur(2px);
-    -moz-filter: blur(2px);
-    -o-filter: blur(2px);
-    -ms-filter: blur(2px);
+    -webkit-filter: blur(0px);
+    -moz-filter: blur(0px);
+    -o-filter: blur(0px);
+    -ms-filter: blur(0px);
     filter: blur(0px);
 }
 .coming-soon {
