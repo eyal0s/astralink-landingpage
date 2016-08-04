@@ -26,7 +26,7 @@ video#bgvid {
     -moz-filter: blur(2px);
     -o-filter: blur(2px);
     -ms-filter: blur(2px);
-    filter: blur(2px);
+    filter: blur(0px);
 }
 .coming-soon {
     text-align: center;
